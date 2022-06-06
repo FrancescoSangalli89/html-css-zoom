@@ -41,25 +41,28 @@ header {
 /* main start */
 
 main {
-    width: 100%;
+    width: 98%;
     height: 70vh;
     margin: auto;
     overflow-y: scroll;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap;   
     margin-bottom: 20px;
 }
 
+main::-webkit-scrollbar {
+    display: none;
+}
+
 .guest {
-    width: 200px;
+    width: calc(100% / 6 - 4px);
     height: 150px;
     background-color: aliceblue;
     background-image: url(https://picsum.photos/200/300);
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 10px;
+    margin: 0 2px 20px 2px;
 }
 
 .name {
@@ -113,6 +116,7 @@ footer {
 
 .icon {
     font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .special {
