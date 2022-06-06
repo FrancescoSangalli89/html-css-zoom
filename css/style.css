@@ -41,12 +41,13 @@ header {
 /* main start */
 
 main {
-    width: 98%;
-    height: 70vh;
+    width: 95%;
+    height: 76.5vh;
     margin: auto;
     overflow-y: scroll;
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -55,14 +56,14 @@ main::-webkit-scrollbar {
 }
 
 .guest {
-    width: calc(100% / 6 - 4px);
-    height: 150px;
+    width: calc(100% / 7 - 4px);
+    height: 120px;
     background-color: aliceblue;
     background-image: url(https://picsum.photos/200/300);
     background-position: center;
     background-size: cover;
     position: relative;
-    margin: 0 2px 20px 2px;
+    margin: 0 2px 10px 2px ;
 }
 
 .name {
