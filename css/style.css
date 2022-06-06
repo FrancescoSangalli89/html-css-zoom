@@ -6,6 +6,7 @@
 
 body {
     background-color: black;
+    font-family: sans-serif;
 }
 
 /*  header start */
@@ -84,6 +85,24 @@ footer {
     text-align: center;
 }
 
+.menu {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-items {
+    height: 100%;
+    padding: 5px;
+}
+
+.menu-items:hover {
+    background-color: rgba(146, 145, 145, 0.5);
+    border-radius: 5px;
+}
+
 .audio-video {
     width: 15%;
 }
@@ -96,13 +115,6 @@ footer {
     font-size: 30px;
 }
 
-.menu {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .special {
     color: green;
 }
@@ -113,6 +125,7 @@ footer {
     width: 10%;
     height: 100%;
     line-height: 80px;
+    border-radius: 5px;
 }
 
 /* footer end */
