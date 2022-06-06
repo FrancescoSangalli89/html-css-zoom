@@ -8,6 +8,8 @@ body {
     background-color: black;
 }
 
+/*  header start */
+
 header {
     width: 100%;
     height: 80px;
@@ -32,6 +34,10 @@ header {
     display: table;
     clear: both;
 }
+
+/*  header end */
+
+/* main start */
 
 main {
     width: 100%;
@@ -63,6 +69,10 @@ main {
     left: 0;
     padding: 2px;
 }
+
+/* main end */
+
+/* footer start */
 
 footer {
     background-color: #222222;
@@ -105,3 +115,4 @@ footer {
     line-height: 80px;
 }
 
+/* footer end */
